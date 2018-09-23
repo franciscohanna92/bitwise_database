@@ -3,4 +3,4 @@ project(bitwise_database C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(bitwise_database main.c)
+add_executable(bitwise_database main.c lib/methods.c lib/methods.h lib/types.h)
